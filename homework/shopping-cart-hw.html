@@ -18,9 +18,14 @@
           <input id="productPrice" type="number" placeholder="price" />
           <input id="productImage" type="text" placeholder="Image URL" />
           <button id="addButton">+</button>
+          <button id="clearAll" onclick="clearCart()">CLEAR</button>
         </div>
         <div id="listContainer"></div>
       </div>
+      <h2>
+        Total Price: $
+        <p id="prodTotalCost">0</p>
+      </h2>
     </div>
     <script src="./script.js"></script>
   </body>
