@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  border: 1px solid red;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-ui {
+  width: 620px;
+  background-color: bisque;
+}
+
+.input-container input {
+  height: 30px;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.input-container > button {
+  height: 45px;
+  width: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#listContainer {
+  padding: 10px;
+}
+
+.list-item {
+  width: 520px;
+  border: 1px solid black;
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+}
+
+.logo {
+  height: 50px;
+}
